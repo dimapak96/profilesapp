@@ -1,24 +1,34 @@
-function App() {
-  return (
-    <div style={{ 
-        textAlign: "center", 
-        marginTop: "100px", 
-        fontFamily: "Arial" 
-    }}>
-      <h1>Hello, my name is Dmitriy Pak 👋</h1>
-      <p>This is my first deployed React + AWS Amplify website.</p>
-
-      <p>
-        ⭐ <strong>Made by Dmitriy Pak</strong>
-      </p>
-
-      <p>
-        <a href="https://github.com/dimapak96" target="_blank">
-          Visit my GitHub
-        </a>
-      </p>
-    </div>
-  );
+/* Reset default browser margins */
+body, html {
+  margin: 0;
+  padding: 0;
 }
 
-export default App;
+/* Center all content */
+#root {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+}
+
+/* Optional styling */
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+}
+
+a {
+  color: #4b4bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
