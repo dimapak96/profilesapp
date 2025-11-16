@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div>
+    <>
       <h1>Hello, my name is Dmitriy Pak ⭐</h1>
 
       <p>This is my first deployed React + AWS Amplify website.</p>
@@ -12,7 +12,7 @@ function App() {
           Visit my GitHub
         </a>
       </p>
-    </div>
+    </>
   );
 }
 
